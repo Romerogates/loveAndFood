@@ -15,5 +15,5 @@ ul li,ul p {
 }
 
 body{
-    background-color: red;
+    background-color: linear-gradient(black, green);
 }
