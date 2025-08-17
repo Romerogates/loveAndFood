@@ -31,6 +31,6 @@ input:checked
 }
 
 input[type="checkbox"] {
-  transform: scale(2); /* agrandit la checkbox (1 = taille normale) */
+  transform: scale(1.5); /* agrandit la checkbox (1 = taille normale) */
   margin: 5px; /* pour éviter que ça déborde */
 }
