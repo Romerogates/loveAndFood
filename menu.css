@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 10;
+    margin-left: 10px;
+}
+
+h4,h5,h6{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ul li,ul p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
