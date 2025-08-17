@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 10;
+    margin: 5px;
     margin-left: 10px;
 }
 
@@ -15,6 +15,5 @@ ul li,ul p {
 }
 
 body{
-    background: linear-gradient( right,black, green);
-    color: antiquewhite;
+    background: linear-gradient( to right,rgba(225, 165, 204, 0.943), rgb(117, 218, 141));
 }
