@@ -1,0 +1,26 @@
+body
+{
+    background: linear-gradient( to right,rgba(225, 165, 204, 0.943), rgb(117, 218, 141));
+}
+
+main
+{
+    margin: 5%;
+}
+
+h1
+{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    width: 20%;
+    font-size: 3rem;
+    color:#ab296a;
+}
+
+input:checked
+{
+    background-color: green !important;
+    border-color: green !important;
+    
+}
