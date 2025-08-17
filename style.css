@@ -16,21 +16,20 @@ h1
     color:#ab296a;
 }
 
+/*INPUT*/
 input:checked
 {
     background-color: green !important;
     border-color: green !important;
 
 }
-
+input[type="checkbox"] {
+  transform: scale(1.5); 
+  margin: 5px; 
+}
 
 
 .center{
     display: flex;
     justify-content: center;
-}
-
-input[type="checkbox"] {
-  transform: scale(1.5); /* agrandit la checkbox (1 = taille normale) */
-  margin: 5px; /* pour éviter que ça déborde */
 }
