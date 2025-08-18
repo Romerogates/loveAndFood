@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to right, rgba(225, 165, 204, 0.943), rgb(117, 218, 141));
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ab296a;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.controls input[type="text"],
+.controls input[type="date"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.controls button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+}
+
+#addButton {
+    background-color: green;
+}
+
+#clearAllButton,
+#clearByDateButton {
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    accent-color: green;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+li input[type="checkbox"]:checked {
+    accent-color: gray;
+}
